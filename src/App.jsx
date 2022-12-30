@@ -8,6 +8,9 @@ import ArrayHookComponent from "./ArrayHook/ArrayHookComponent"
 import PreviousComponent from "./PreviousHook/PreviousComponent"
 import StateWithHistoryComponent from "./StateWithHistoryHook/StateWithHistoryComponent"
 import UseStorageComponent from "./useStorageHook/UseStorageComponent"
+import AsyncComponent from "./AsyncHook/AsyncComponent"
+import FetchComponent from "./FetchHook/FetchComponent"
+import ScriptComponent from "./ScriptHook/ScriptComponent"
 
 export default function App() {
   return (
@@ -19,7 +22,10 @@ export default function App() {
       <ArrayHookComponent /> */}
       {/* <PreviousComponent/> */}
       {/* <StateWithHistoryComponent/> */}
-      <UseStorageComponent/>
+      {/* <UseStorageComponent/> */}
+      {/* <AsyncComponent/> */}
+      {/* <FetchComponent/> */}
+      <ScriptComponent/>
     </>
   )
 }
