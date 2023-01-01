@@ -12,6 +12,10 @@ import AsyncComponent from "./AsyncHook/AsyncComponent"
 import FetchComponent from "./FetchHook/FetchComponent"
 import ScriptComponent from "./ScriptHook/ScriptComponent"
 
+import EventListenerComponent from "./EventListenerHook/EventListenerComponent"
+import OnScreenComponent from "./OnScreenHook/OnScreenComponent"
+import WindowSizeComponent from "./windowSizeHook/WindowSizeComponent"
+
 export default function App() {
   return (
     <>
@@ -25,7 +29,11 @@ export default function App() {
       {/* <UseStorageComponent/> */}
       {/* <AsyncComponent/> */}
       {/* <FetchComponent/> */}
-      <ScriptComponent/>
+      {/* <ScriptComponent/> */}
+      {/* <DeepCompareComponent/> */}
+      {/* <EventListenerComponent /> */}
+      {/* <OnScreenComponent/> */}
+      <WindowSizeComponent />
     </>
   )
 }
