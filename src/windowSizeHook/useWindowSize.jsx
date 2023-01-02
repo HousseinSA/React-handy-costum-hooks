@@ -6,12 +6,16 @@ export default function useWindowSize() {
     widht: window.innerWidth,
     height: window.innerWidth,
   })
-  useEventListner("resize", () => {
-    setWindowResize({
-      widht: window.innerWidth,
-      height: window.innerHeight,
-    })
-  })
+  useEventListner(
+    "resize",
+    () => {
+      setWindowResize({
+        widht: window.innerWidth,
+        height: window.innerHeight,
+      })
+    },
+    window
+  )
 
   return windowResize
 }
